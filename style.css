@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Texturina:ital,wght@1,300&display=swap');
+
+:root{
+    --blue: blue;
+    --brown:#92400E;
+    --input-green:#D1FAE5;
+}
+
+body{
+    font-family: 'Nerko One', cursive;
+    font-family: 'Texturina', serif;
+    margin:auto;
+    background-color: lightgreen
+}
+
+.hero{
+    background-color: var(--brown);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing:0.1rem;
+    padding:1rem;
+    margin-bottom:2rem;
+}
+
+.hero-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.input{
+    height:30vh;
+    padding:1rem;
+    box-sizing:border-box;
+    width:80%;
+    max-width:500px;
+    margin:1rem;
+    border:solid;
+    font-size: large;
+    background: transparent;
+    background-color: var(--input-green);
+}
+
+.output{
+    border:solid;
+    padding:1rem;
+    height:25vh;
+    width:80%;
+    max-width:500px;
+    margin:1rem;
+    font-size: large;
+    background-color: var(--input-green);
+}
+
+.button{
+    border: solid;
+    margin: auto;
+    padding: 1rem;
+    font-family: 'Kalam', cursive;
+    font-size: medium;
+    background-color: var(--brown);
+}
+
+.flex-container{
+    display:flex;
+    padding: 1rem;
+    margin:5rem auto;
+}
+
+.footer{
+    padding:1rem;
+    text-align:center;
+    margin-top:2rem;
+    position: fixed;
+    bottom:0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--brown);
+}
+
+.footer-header{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing:0.1rem;
+}
+
