@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Texturina:ital,wght@1,300&display=swap');
 
 :root{
-    --blue:#4F46E5;
+    --green:#526E2A;
+    --brown:#C19A6B
 
 }
 
@@ -9,13 +10,14 @@ body{
     font-family: 'Nerko One', cursive;
     font-family: 'Texturina', serif;
     margin:auto;
+    background-color:var(--brown) ;
 }
 
 .hero{
     text-align: center;
     padding:1rem;
     margin-bottom:1rem;
-    background-color: var(--blue);
+    background-color: var(--green);
 }
 
 .hero-header{
@@ -36,7 +38,7 @@ body{
     box-sizing: border-box;
     width: 100%;
     color: black;
-    background-color: var(--blue);
+    background-color: var(--green);
 }
 
 .input{
@@ -48,8 +50,6 @@ body{
     box-sizing: border-box;
     border: solid;
 
-
-
 }
 
 .output{
@@ -60,6 +60,7 @@ body{
     width:50%;
     box-sizing: border-box;
     border: solid;
+    background-color: white;
 
 }
 
@@ -69,7 +70,8 @@ body{
     margin:auto;
     box-sizing:border-box;
     max-width:300px;
-    width:50%
+    width:50%;
+    font-weight:bold
 }
 
 
@@ -86,8 +88,8 @@ body{
 .button{
     padding:1rem;
     margin:auto;
-    background-color:var(--blue)
-
+    background-color:var(--green);
+    border:solid
 }
 
 .footer-header{
