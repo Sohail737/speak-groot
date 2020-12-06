@@ -66,10 +66,9 @@ body{
 
 .output-label{
     display:block;
-    padding:1rem;
+    padding:1rem 0rem;
     margin:auto;
     box-sizing:border-box;
-    max-width:300px;
     width:50%;
     font-weight:bold
 }
@@ -78,8 +77,7 @@ body{
 .container-button{
     display: block;
     margin:auto;
-    padding:1rem;
-    max-width:300px;
+    padding:1rem 0rem;
     width:50%;
     box-sizing:border-box
 
