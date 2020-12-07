@@ -9,18 +9,22 @@
   <body>
     <header class="hero">
       <h3 class="hero-header">Speak Groot...!!!</h3>
+      <img class="hero-image" src="/images/Groot.svg">
     </header>
-
-    <textarea
-      id="txt-input"
-      class="input"
-      placeholder="Enter input text in english"
-    ></textarea>
-    <div class="container-button">
-      <button id="btn-click" class="button">Click Me</button>
+    <div class="container-center">
+      <textarea id="txt-input"></textarea>
+      <label for="txt-input" class="input-label">Enter input text in english here ☝️</label>
     </div>
-    <p class="output-label">Your translated text will appear here 👇</p>
-    <div id="txt-output" class="output"></div>
+    
+    <div class="btn-container">
+      <button id="btn-click" class="button-left">Click Me</button>
+      <button id="reset" class="button-right">Reset</button>
+    </div>
+
+    <div class="container-center">
+      <div id=txt-output></div>
+      <label for="txt-input" class="input-label">Translated Output will appear here ☝️</label>
+  </div>
 
     <footer class="footer">
       <div class="footer-header">About</div>

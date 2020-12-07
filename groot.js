@@ -1,6 +1,7 @@
 var inputText=document.querySelector("#txt-input");
 var outputText=document.querySelector("#txt-output");
-var buttonClick=document.querySelector("#btn-click")
+var buttonClick=document.querySelector("#btn-click");
+var resetButton=document.querySelector("#reset");
 const url="https://api.funtranslations.com/translate/groot.json"
 
 function constructUrl(text){
@@ -10,6 +11,11 @@ function errorHandler(error){
     console.log("error occured : "+ error);
     
     alert("Something went wrong, please try again later");
+}
+
+function resetAll(){
+    inputText.value="";
+    outputText.innerText="";
 }
 
 function clickHandler(){
@@ -22,3 +28,5 @@ function clickHandler(){
 }
 
 buttonClick.addEventListener("click",clickHandler)
+
+resetButton.addEventListener("click",resetAll);
