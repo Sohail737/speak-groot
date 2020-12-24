@@ -87,7 +87,6 @@ body{
 }
 
 #txt-output{
-    display:block;
     box-sizing: border-box;
     height: 15vh;
     width:100%;
